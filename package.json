@@ -9,7 +9,12 @@
     "lint": "next lint",
     "type-check": "tsc --noEmit"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  },
   "devDependencies": {
     "typescript": "^5"
   }
